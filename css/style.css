@@ -162,15 +162,15 @@ a{
     text-align: center;
 }
 
-.educacion{
+.Motocicletas{
     background-color: #D5F5E3;
     padding: auto;
 }
 
-#educacion{
+#Motocicletas{
     padding: auto;
 }
-.content-education{
+.content-motos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -213,8 +213,10 @@ a{
 }
 
 .Financiacion{
-    justify-content: right;
+    justify-content: left;
     align-items: center;
+    padding: 100px;
+    display: flex;
     width: 100%;
     flex-direction: column;
     background-color: white;
@@ -224,15 +226,23 @@ a{
 
 }
 
-.Financiacion h1{
-    font-size: 35px;
+.Financiero{
+    background-color: #82E0AA;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 25px;
 }
 
+/* .Financiacion h1{
+    font-size: 35px;
+} */
 
-.servicios{
+
+.Servicios{
     justify-content: center;
+    padding: 100px;
     display: flex;
-    align-items: center;
     width: 100%;
     flex-direction: column;
     background-color: #D5F5E3;
@@ -243,12 +253,30 @@ a{
 }
 
 
-.servicios h1 {
-    font-size: 20px;
+.service {
+    background-color: white;
+    color: black;
+    justify-content: center;
+    padding: 200px;
+    border-radius: 15px;
+    height: 350px;
+    width: 700px;
+    padding: 10px;
+
+
 }
 
-.noticias{
-    justify-content: right;
+
+.service:hover{
+    box-shadow: 0 4px 10px rgb(17,29,48);
+    color: #fff;
+    background-color: #82E0AA;
+    transition: .5s;
+
+}
+
+.cliente{
+    justify-content: center;
     display: flex;
     align-items: center;
     width: 100%;
@@ -258,4 +286,12 @@ a{
     height: 500px;
     margin-right: 70px;
 
+}
+
+.clients{
+    background-color: #82E0AA;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 25px;
 }
