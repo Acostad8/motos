@@ -295,3 +295,14 @@ a{
     padding-top: 20px;
     border-radius: 25px;
 }
+
+.container{
+    width: 100%;
+
+    width: 90%;
+    max-width: 1400px;
+    padding: auto;
+    margin: auto;
+    overflow: hidden  ;
+}
+
