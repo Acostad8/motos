@@ -1,0 +1,307 @@
+.financiacion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+    color: black;
+}
+
+
+
+
+.seccion_ops {
+    display: flex;
+    justify-content: center;
+}
+
+.foto1 {
+    margin-top: 50px;
+}
+
+.opciones-financiacion {
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.opciones-financiacion>h2 {
+    display: flex;
+    border-style: hidden hidden solid;
+    justify-content: left;
+    margin-bottom: 12px;
+}
+
+.seccion_requisitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #82E0AA;
+    color: white;
+    margin-top: 60px;
+}
+
+.foto2>img {
+    border-radius: 15px;
+}
+
+.requisitos-financiacion>h2 {
+
+    margin-right: 400px;
+    color: white;
+    margin-bottom: 20px;
+    border-style: hidden hidden solid;
+}
+
+.seccion_solicitud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    color: #000;
+}
+
+.foto3>img {
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.proceso-solictud>h2 {
+
+    margin-left: 300px;
+    color: #000;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border-style: hidden hidden solid;
+}
+
+.proceso-solictud>p {
+    margin-left: 200px;
+    justify-content: right;
+
+}
+
+.seccion_beneficios {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: #82E0AA;
+}
+
+.beneficios {
+    margin-left: 70px;
+    color: black;
+}
+
+.beneficios>h2 {
+    color: white;
+    border-style: hidden hidden solid;
+    margin-bottom: 20px;
+}
+
+.iconbeneficios>img {
+    margin-left: 250px;
+}
+
+.seccion_preguntas {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-color: white;
+}
+
+.preguntasfreq {
+    margin-left: 70px;
+    color: #000;
+}
+
+.preguntasfreq>h2 {
+    color: #000;
+    border-style: hidden hidden solid;
+    margin-bottom: 20px;
+}
+
+.iconquestion>img {
+    margin-right: 150px;
+}
+
+
+
+
+.contenedor {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #82E0AA;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.enlaces-header {
+    font-weight: 300;
+    margin: auto;
+    transition: all ease-in-out .6s;
+}
+
+.enlaces-header>a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.enlaces-header>a:hover {
+    color: white;
+    background-color: #82E0AA;
+    border-color: #000;
+    transition: all ease-in-out .6s;
+    border-radius: 50px;
+}
+
+.enlaces-header>button {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.contenido-header {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.contenido-header>img {
+    width: 400px;
+    height: 300px;
+    animation: ease-in animacion 0.5s;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+@keyframes animacion {
+    0% {
+        transform: scale(0);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.textos-header {
+    margin: 0 0 0 30px;
+    color: #000;
+}
+
+.textos-header>h1 {
+    border-style: hidden hidden solid;
+}
+
+
+
+
+.contenedor {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Audiowide', sans-serif;
+    border-style: hidden hidden solid;
+    opacity: 1;
+    color: #fff;
+}
+
+.textos-header>h3 {
+    color: #fff;
+}
+
+header::before {
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+.info-empresa>h3 {
+    color: #fff;
+}
+
+.contenido-header {
+    font-weight: 300px;
+    margin-top: 14px;
+    color: black;
+    text-align: justify;
+}
+
+.contenido-header a {
+    margin: 28px 0 0 0;
+    width: 150px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px rgba(18, 26, 61, 0.46);
+}
+
